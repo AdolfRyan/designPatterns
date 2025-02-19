@@ -1,6 +1,6 @@
 package command;
 
-public class GarageDoorCommand extends Command {
+public class GarageDoorCommand implements Command {
   GarageDoor garageDoor;
 
   public GarageDoorCommand(GarageDoor garageDoor) {
